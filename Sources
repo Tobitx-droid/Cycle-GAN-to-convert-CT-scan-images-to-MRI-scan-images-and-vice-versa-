@@ -1,0 +1,34 @@
+MRI images
+1. https://www.kaggle.com/abhranta/brain-tumor-detection-mri
+Context
+This is a dataset that aims towards helping people to build machine learning models for detecting brain tumors.
+
+Content
+This dataset contains MRI scans of the brain. The dataset is divided into three folders.
+1) yes- This folder contains the MRI scans that have a tumor
+2) no- This folder contains the MRI scans that do not have a tumor.
+3) pred- This folder contains unlabelled MRI scans for testing purposes.
+
+note: used no and pred folders
+
+
+2. https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri
+Abstract
+A Brain tumor is considered as one of the aggressive diseases, among children and adults. Brain tumors account for 85 to 90 percent of all primary Central Nervous System(CNS) tumors. Every year, around 11,700 people are diagnosed with a brain tumor. The 5-year survival rate for people with a cancerous brain or CNS tumor is approximately 34 percent for men and36 percent for women. Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc. Proper treatment, planning, and accurate diagnostics should be implemented to improve the life expectancy of the patients. The best technique to detect brain tumors is Magnetic Resonance Imaging (MRI). A huge amount of image data is generated through the scans. These images are examined by the radiologist. A manual examination can be error-prone due to the level of complexities involved in brain tumors and their properties.
+
+1)glioma_tumor
+2)meningioma_tumor
+3)no_tumor
+4)pituitary_tumor
+
+note: used images with top view of brain crossections only
+
+
+CT images
+1. https://www.kaggle.com/vbookshelf/computed-tomography-ct-images
+
+This dataset consists of head CT (Computed Thomography) images in jpg format. There are 2500 brain window images and 2500 bone window images, for 82 patients. There are approximately 30 image slices per patient. 318 images have associated intracranial image masks. Also included are csv files containing hemorrhage diagnosis data and patient data.
+This is version 1.0.0 of this dataset. A full description of this dataset as well as updated versions can be found here:
+https://physionet.org/content/ct-ich/1.0.0/
+
+note: no changes made, all images from image folder after running the script were used
